@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="" width="200" height="80"></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Hi, I'm <span>Kristiseunfunmi Omotosho</span></h1>
+        <p>Web developer &amp; app builder based in Nigeria  (turning ideas into working products).</p>
+        <button onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View My Work</button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I'm a builder who enjoys taking an idea from sketch to something real people can use. From mobile apps to interactive web pages. I recently built and pitched TaskMate, a two-sided chore marketplace app, and I forward to expanding my horizons.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <h3>TaskMate</h3>
+                <p>A two-sided marketplace connecting customers with household chore workers in Ile-Ife. Built with Supabase, escrow payments, and 4-language support.</p>
+                <a href="#" target="_blank">View Project →</a>
+            </div>
+            <div class="card">
+                <h3>Checkers</h3>
+                <p>A  fun and interactive boad game built with python programing language.</p>
+                <a href="https://github.com/Tiseunfunmi/Board-Game/tree/main/Checkers" target="_blank">View Project →</a>
+            </div>
+            <div class="card">
+                <h3>Book Launch Invite</h3>
+                <p>An HTML/CSS event invite page with a linked RSVP form for a book launch event.</p>
+               <a href="https://github.com/Tiseunfunmi/my-introduction/tree/main/event%20invite" target="_blank">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <h2>Get In Touch</h2>
+    <form name="contact" method="POST" data-netlify="true" id="contact-form" onsubmit="return validateForm()">
+        <input type="hidden" name="form-name" value="contact">
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+        
+        <button type="submit">Send Message</button>
+        <div id="form-status"></div>
+    </form>
+</section>
+
+    <footer>
+        &copy; 2026 Kristiseunfunmi Portfolio.
+    </footer>
+
+        <script>
+                function validateForm() {
+    var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
+                var status = document.getElementById('form-status');
+
+                if (name === "" || email === "" || message === "") {
+                    status.style.color = "#f87171";
+                status.textContent = "Please fill in all fields.";
+                return false;
+    }
+
+                status.style.color = "#4ade80";
+                status.textContent = "Sending your message...";
+                return true;
+  }
+        </script>
+
+</body>
+
+</html>
