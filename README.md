@@ -1,10 +1,10 @@
-# Vee's Portfolio
+# kristiseunfunmi's Portfolio
 
 A personal portfolio website showcasing my web development and app-building projects, built as part of my Capstone Project (2026 Design Phase Cohort).
 
 ## 🔗 Links
 
-- **Live Site:** [ ]
+- **Live Site:** [kristiseunfunmi.netlify.app]
 - **Figma Design:** [ https://www.figma.com/proto/mtDBrkel8yGpmAKqQCjxco/Capstone-project?node-id=0-1&t=HsP2UnqxrHTsEWNw-1]
 
 ## 📌 About
@@ -30,7 +30,7 @@ This portfolio highlights projects I've built while learning web development and
 
 ```
 portfolio/
-├── portfolio.html
+├── index.html
 ├── style.css
 ├── logo.jpeg
 └── README.md
@@ -42,7 +42,7 @@ portfolio/
    ```
    git clone https://github.com/Tiseunfunmi/portfolio.git
    ```
-2. Open `portfolio.html` in your browser — no build tools required.
+2. Open `index.html` in your browser — no build tools required.
 
 ## 🌐 Deployment
 
