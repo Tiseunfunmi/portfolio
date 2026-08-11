@@ -9,7 +9,7 @@ A personal portfolio website showcasing my web development and app-building proj
 
 ## 📌 About
 
-This portfolio highlights projects I've built while learning web development and app design.
+This portfolio highlights some projects I've built while learning web development and app design.
 
 ## ✨ Features
 
