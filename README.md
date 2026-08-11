@@ -4,7 +4,7 @@ A personal portfolio website showcasing my web development and app-building proj
 
 ## 🔗 Links
 
-- **Live Site:** [kristiseunfunmi.netlify.app]
+- **Live Site:** [Https://kristiseunfunmi.netlify.app]
 - **Figma Design:** [ https://www.figma.com/proto/mtDBrkel8yGpmAKqQCjxco/Capstone-project?node-id=0-1&t=HsP2UnqxrHTsEWNw-1]
 
 ## 📌 About
